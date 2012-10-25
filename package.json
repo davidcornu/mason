@@ -3,11 +3,8 @@
   "version": "0.0.1",
   "description": "A lightweight asset management middleware",
   "main": "lib/mason.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": "",
-  "author": "David Cornu",
+  "repository": "https://github.com/davidcornu/mason.git",
+  "author": "David Cornu <i@davidcornu.com>",
   "license": "BSD",
   "dependencies": {
     "async": "~0.1.22",
