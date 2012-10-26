@@ -25,10 +25,11 @@ var templateVariables = { name: 'Bob' };
 var html = JST['templates/comment'](templateVariables);
 ```
 
-**Warning**
+## Warning
 
-Mason is an extremely young project and should be treated as such. Bug reports
-feature requests and contributions are most welcome.
+Mason is an extremely young project and should be treated as such. 
+
+Bug reports, feature requests and contributions are most welcome.
 
 ## Usage
 
@@ -47,10 +48,11 @@ mason.configure('coffee-script', { noWrap: true }); // Customize compiler option
 app.use(mason.middleware(module));
 ```
 
-Passing `module` to `mason.middleware` is what allows Mason to load dependencies
-from your application's context instead of its own.
+**Notes**
 
-Setting `saveFiles` to true causes Mason to write the output of source files to the
+- Passing `module` to `mason.middleware` is what allows Mason to load dependencies
+from your application's context instead of its own.
+- Setting `saveFiles` to `true` causes Mason to write the output of source files to the
 target directory when they are accessed. This allows you to have a continuously up
 to date version of your compiled assets availble.
 
